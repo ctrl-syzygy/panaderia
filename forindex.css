@@ -3,19 +3,24 @@
     margin-top: 300px;
     align-items: center;
     scroll-margin-top: 100px;
-    min-height: 1000px;
+    min-height: 900px;
 }
 
 .top-div {
     position: absolute;
+    display: inline-block;
 }
 
 .bottom-div {
     position: absolute;
     display: block;
-    margin: 0 15%;
+    margin: 0 5%;
+    margin-right: 10px;
 }
 
+.bottom-div img {
+    width: 95%;
+}
 
 nav {
     font-size: 50px;
@@ -29,17 +34,56 @@ nav li {
 
 nav ul {
     display: flex;
-    gap: 215px;
+    gap: 170px;
     padding: 5px 10px;
-    margin: 20px 340px;
+    margin: 20px 100px;
     list-style: none;
 }
 
+nav a {
+    text-decoration: none;
+    color: rgba(102, 52, 0, 0.38);
+}
+
 .feature {
-    display: inline-block;
-    margin: 20px 340px;
+    display: flex;
+    align-items: center;
+    margin: 5px 100px;
+
+    background-image: url(img/feature-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1100xpx;
+    height: 205px;
 }
 
 .feature img {
-    max-width: 100px;
+    max-width: 20%;
+}
+
+.pastry-info {
+    flex: 1;
+}
+
+.pastry-info h2 {
+    margin: 0 0 10px;
+    font-size: 40px;
+    color: #840000;
+}
+
+.pastry-info p:first-of-type {
+    color: #840000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pastry-info p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+#feature a {
+    text-decoration: none;
+    cursor: pointer;
 }
