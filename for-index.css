@@ -1,9 +1,9 @@
 #feature {
     position: relative;
-    margin-top: 300px;
+    margin-top: 200px;
+
     align-items: center;
-    scroll-margin-top: 100px;
-    min-height: 900px;
+    min-height: 800px;
 }
 
 .top-div {
@@ -14,8 +14,9 @@
 .bottom-div {
     position: absolute;
     display: block;
-    margin: 0 5%;
+    margin: 0 4%;
     margin-right: 10px;
+    width: 85%;
 }
 
 .bottom-div img {
@@ -53,7 +54,8 @@ nav a {
     background-image: url(img/feature-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1100xpx;
+    
+    width: 1060px;
     height: 205px;
 }
 

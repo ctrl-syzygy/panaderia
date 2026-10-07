@@ -6,28 +6,26 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-html, body {
-    overflow-x: hidden;
-}
-
 header {
+    z-index: 9999;
     background-image: url(img/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    width: 100%;
+    height: 70px;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    z-index: 9999;
+    top: 0px;
 }
 
 header img {
-    height: 100px;
+    height: 70px;
 }
 
 .frontcover {
@@ -38,36 +36,38 @@ header img {
 }
 
 .frontcover img {
-    width: 90%;
+    width: 84%;
     position: relative;
-    top: -170px;
-    margin-bottom: -500px;   
+    top: -100px;
+    margin-bottom: -200px;   
 }
 
 .button {
     background-color: rgba(248, 229, 187, 1);
     border: 2px solid #840000;
     color: #840000;
-    padding: 15px 32px;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: -160px 2px 4px;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 60px;
+    z-index: 1000;
 }
 
 .button a {
     text-decoration: none;
     color: #840000;
+    font-size: 30px;
 }
 
 footer {
     background-image: url(img/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 70px;
     
     display: flex;
     align-items: center;
