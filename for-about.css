@@ -14,8 +14,8 @@
 .bottom-div {
     position: absolute;
     display: block;
-    margin: 0 5%;
-    margin-right: 10px;
+    margin: 0 9%;
+    width: 85%;
 }
 
 .bottom-div img {
@@ -36,7 +36,7 @@ nav ul {
     display: flex;
     gap: 170px;
     padding: 5px 10px;
-    margin: 20px 100px;
+    margin: 20px 180px;
     list-style: none;
 }
 
@@ -56,7 +56,7 @@ nav a {
 }
 
 .about img {
-    width: 95%;
+    width: 90%;
 }
 
 .about h4 {
@@ -69,5 +69,6 @@ nav a {
 
 .about p {
     font-size: 35px;
-    padding-top: 10px;
+    padding: 10px 60px 0;
+    text-align: justify;
 }

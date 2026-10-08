@@ -3,7 +3,7 @@
     margin-top: 50px;
     align-items: center;
     scroll-margin-top: 100px;
-    min-height: 1700px;
+    min-height: 800px;
 }
 
 .top-div {
@@ -14,8 +14,8 @@
 .bottom-div {
     position: absolute;
     display: block;
-    margin: 0 5%;
-    margin-right: 10px;
+    margin: 0 10%;
+    width: 85%;
 }
 
 .bottom-div img {
@@ -36,7 +36,7 @@ nav ul {
     display: flex;
     gap: 170px;
     padding: 5px 10px;
-    margin: 20px 100px;
+    margin: 20px 200px;
     list-style: none;
 }
 
@@ -45,29 +45,34 @@ nav a {
     color: rgba(102, 52, 0, 0.38);
 }
 
-.about {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
 
-    margin: 50px 150px;
+    margin: 50px 190px;
 }
 
-.about img {
+.contact img {
     width: 95%;
 }
 
-.about h4 {
-    font-size: 30px;
+.contact h4 {
+    font-size: 40px;
     font-weight: bold;
     color: #840000;
     font-style: italic;
     padding-bottom: 10px;
 }
 
-.about p {
+.contact p {
     font-size: 35px;
     padding-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000;
 }
