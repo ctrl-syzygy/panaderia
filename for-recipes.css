@@ -1,14 +1,15 @@
-#about {
+#recipes {
     position: relative;
     margin-top: 50px;
     align-items: center;
     scroll-margin-top: 100px;
-    min-height: 1700px;
+    min-height: 1900px;
 }
 
 .top-div {
     position: absolute;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom-div {
@@ -45,30 +46,46 @@ nav a {
     color: rgba(102, 52, 0, 0.38);
 }
 
-.about {
+.feature {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    margin: 5px 200px;
 
-    margin: 50px 150px;
+    background-image: url(img/feature-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1060px;
+    height: 205px;
 }
 
-.about img {
-    width: 90%;
+.feature img {
+    max-width: 20%;
 }
 
-.about h4 {
-    font-size: 30px;
-    font-weight: bold;
+.pastry-info {
+    flex: 1;
+}
+
+.pastry-info h2 {
+    margin: 0 0 10px;
+    font-size: 40px;
     color: #840000;
-    font-style: italic;
-    padding-bottom: 10px;
 }
 
-.about p {
-    font-size: 35px;
-    padding: 10px 60px 0;
-    text-align: justify;
+.pastry-info p:first-of-type {
+    color: #840000;
+    font-weight: bold;
+    font-style: italic;
 }
+
+.pastry-info p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+#feature a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
