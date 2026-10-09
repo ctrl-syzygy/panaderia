@@ -14,7 +14,8 @@
 .bottom-div {
     position: absolute;
     display: block;
-    margin: 0 10%;
+    margin: 0 4%;
+    margin-right: 10px;
     width: 85%;
 }
 
@@ -25,7 +26,7 @@
 nav {
     font-size: 50px;
     display: flex;
-    gap: 90px;
+    gap: 100px;
 }
 
 nav li {
@@ -36,7 +37,7 @@ nav ul {
     display: flex;
     gap: 170px;
     padding: 5px 10px;
-    margin: 20px 200px;
+    margin: 20px 100px;
     list-style: none;
 }
 
@@ -48,24 +49,21 @@ nav a {
 .feature {
     display: flex;
     align-items: center;
-    margin: 5px 200px;
+    margin: 5px 100px;
 
     background-image: url(img/feature-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    
     width: 1060px;
     height: 205px;
 }
 
 .feature img {
-    padding-bottom: 20px;
     max-width: 20%;
 }
 
 .pastry-info {
     flex: 1;
-    padding-bottom: 20px;
 }
 
 .pastry-info h2 {
