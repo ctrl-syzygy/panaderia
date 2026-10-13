@@ -1,0 +1,179 @@
+#recipes {
+    position: relative;
+    margin-top: 50px;
+    align-items: center;
+    scroll-margin-top: 100px;
+    min-height: 1750px;
+}
+
+.top-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-div {
+    position: absolute;
+    display: block;
+    margin: 0 10%;
+    width: 85%;
+}
+
+.bottom-div img {
+    width: 95%;
+}
+
+nav {
+    font-size: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    gap: 170px;
+    padding: 5px 10px;
+    margin: 20px 200px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(102, 52, 0, 0.38);
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+
+    margin: 5px 190px;
+    padding: 15px 25px;
+}
+
+.spanish-image {
+    flex: 0 0 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanish-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+}
+
+.spanish-info {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.spanish-info img {
+    width: 80%;
+    margin: 0;
+}
+
+.spanish-info .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #840000;
+    margin: 0 0 15px;
+}
+
+.spanish-info .description {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 5px 190px;
+    padding: 15px 25px;
+}
+
+.ingredients {
+    flex: 0 0 35%;
+    min-width: 0;
+}
+
+.instructions {
+    flex: 1;
+    min-width: 0;
+}
+
+.ingredients h4 {
+    font-size: 20px;
+    color: #840000;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.ingredients ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.instructions ol {
+    width: 95%;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.ingredients li {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.instructions li {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.feature.spanish {
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 1000;
+
+    color: #000;
+    background: none;
+    border: none;
+
+    font-size: 50px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    color: #840000;
+}

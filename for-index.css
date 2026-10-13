@@ -14,8 +14,7 @@
 .bottom-div {
     position: absolute;
     display: block;
-    margin: 0 4%;
-    margin-right: 10px;
+    margin: 0 10%;
     width: 85%;
 }
 
@@ -37,7 +36,7 @@ nav ul {
     display: flex;
     gap: 170px;
     padding: 5px 10px;
-    margin: 20px 100px;
+    margin: 20px 200px;
     list-style: none;
 }
 
@@ -49,7 +48,8 @@ nav a {
 .feature {
     display: flex;
     align-items: center;
-    margin: 5px 100px;
+    margin: 5px 190px;
+    padding: 15px 25px;
 
     background-image: url(img/feature-bg.png);
     background-size: contain;

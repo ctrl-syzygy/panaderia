@@ -1,0 +1,46 @@
+<div class="top-search-back">
+                <button class="back-button" onclick="history.back()">←</button>
+
+                <form class="search-bar">
+                    <input type="text" placeholder="Search recipes for a recipe here...">
+                    <button type="submit">&#128269;</button>
+                </form>
+            </div>
+
+.back-button {
+    background-color: #F8E5BB;
+    color: #840000;
+
+    border: 2px solid #840000;
+    border-radius: 20px;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: inherit;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background-color: #840000;
+    color: #F8E5BB;
+}
+
+.top-search-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin: 10px auto 20px;
+}
+
+.top-search-back .search-bar {
+    margin: 0;
+    width: 500px;
+}
+
+.top-search-back .back-button {
+    flex-shrink: 0;
+}
