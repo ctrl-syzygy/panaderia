@@ -1,26 +1,32 @@
 #recipes {
     position: relative;
     margin-top: 50px;
-    align-items: center;
     scroll-margin-top: 100px;
     min-height: 1900px;
 }
 
-.top-div {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-}
-
 .bottom-div {
     position: absolute;
-    display: block;
-    margin: 0 10%;
-    width: 85%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .bottom-div img {
-    width: 95%;
+    width: 100%;
+    display: block;
+}
+
+.top-div {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
 }
 
 nav {
@@ -49,6 +55,7 @@ nav a {
 .feature {
     display: flex;
     align-items: center;
+    flex-direction: column;
     margin: 5px 200px;
 
     background-image: url(img/feature-bg.png);
@@ -64,6 +71,7 @@ nav a {
 
 .pastry-info {
     flex: 1;
+    z-index: 200;
 }
 
 .pastry-info h2 {

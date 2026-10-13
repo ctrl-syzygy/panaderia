@@ -43,6 +43,7 @@ nav ul {
 nav a {
     text-decoration: none;
     color: rgba(102, 52, 0, 0.38);
+    text-shadow: 2px 2px beige;
 }
 
 .contact {
@@ -65,11 +66,13 @@ nav a {
     color: #840000;
     font-style: italic;
     padding-bottom: 10px;
+    text-shadow: 2px 2px gray;
 }
 
 .contact p {
     font-size: 35px;
     padding-top: 10px;
+    text-shadow: 2px 2px gray;
 }
 
 .contact a {

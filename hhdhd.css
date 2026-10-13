@@ -1,0 +1,93 @@
+#recipes {
+    position: relative;
+    margin-top: 50px;
+    align-items: center;
+    scroll-margin-top: 100px;
+    min-height: 1900px;
+}
+
+.top-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-div {
+    position: absolute;
+    display: block;
+    margin: 0 10%;
+    width: 85%;
+}
+
+.bottom-div img {
+    width: 95%;
+}
+
+nav {
+    font-size: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    gap: 170px;
+    padding: 5px 10px;
+    margin: 20px 200px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(102, 52, 0, 0.38);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 200px;
+
+    background-image: url(img/feature-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1060px;
+    height: 205px;
+}
+
+.feature img {
+    max-width: 20%;
+}
+
+.pastry-info {
+    flex: 1;
+    z-index: 200;
+}
+
+.pastry-info h2 {
+    margin: 0 0 10px;
+    font-size: 40px;
+    color: #840000;
+}
+
+.pastry-info p:first-of-type {
+    color: #840000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pastry-info p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+#feature a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
