@@ -56,14 +56,14 @@ nav a {
     padding: 15px 25px;
 }
 
-.spanish-image {
+.bread-image {
     flex: 0 0 35%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.spanish-image img {
+.bread-image img {
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -71,25 +71,25 @@ nav a {
     margin: 0;
 }
 
-.spanish-info {
+.bread-info {
     flex: 1;
     min-width: 0;
     text-align: center;
 }
 
-.spanish-info img {
+.bread-info img {
     width: 80%;
     margin: 0;
 }
 
-.spanish-info .subtitle {
+.bread-info .subtitle {
     font-size: 16px;
     font-weight: bold;
     color: #840000;
     margin: 0 0 15px;
 }
 
-.spanish-info .description {
+.bread-info .description {
     font-size: 16px;
     line-height: 1.4;
     color: #333;
@@ -149,7 +149,7 @@ nav a {
     color: #000;
 }
 
-.feature.spanish {
+.feature.bread {
     position: relative;
 }
 
