@@ -1,3 +1,13 @@
+@font-face {
+    font-family: fontText;
+    src: url(fonts/KyivTypeSerif-Regular.woff);
+}
+
+@font-face {
+    font-family: fontTitle;
+    src: url(fonts/instrumentserif-regular.woff);
+}
+
 #feature {
     position: relative;
     margin-top: 200px;
@@ -9,6 +19,7 @@
 .top-div {
     position: absolute;
     display: inline-block;
+    font-family: fontText;
 }
 
 .bottom-div {
@@ -23,7 +34,7 @@
 }
 
 nav {
-    font-size: 50px;
+    font-size: 45px;
     display: flex;
     gap: 100px;
 }
@@ -34,7 +45,7 @@ nav li {
 
 nav ul {
     display: flex;
-    gap: 170px;
+    gap: 135px;
     padding: 5px 10px;
     margin: 20px 200px;
     list-style: none;
@@ -43,6 +54,13 @@ nav ul {
 nav a {
     text-decoration: none;
     color: rgba(102, 52, 0, 0.38);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    color: rgba(29, 15, 0, 0.38);
+    border-bottom: 2px solid rgba(29, 15, 0, 0.38);
 }
 
 .feature {
@@ -58,6 +76,10 @@ nav a {
     height: 205px;
 }
 
+.feature:hover {
+    background-image: url(img/feature-bg-hover.png);
+}
+
 .feature img {
     max-width: 20%;
 }
@@ -70,6 +92,7 @@ nav a {
     margin: 0 0 10px;
     font-size: 40px;
     color: #840000;
+    font-family: fontTitle;
 }
 
 .pastry-info p:first-of-type {

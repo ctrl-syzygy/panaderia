@@ -1,3 +1,13 @@
+@font-face {
+    font-family: fontText;
+    src: url(fonts/KyivTypeSerif-Regular.woff);
+}
+
+@font-face {
+    font-family: fontTitle;
+    src: url(fonts/instrumentserif-regular.woff);
+}
+
 #recipes {
     position: relative;
     margin-top: 50px;
@@ -10,6 +20,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    font-family: fontText;
 }
 
 .bottom-div {
@@ -24,7 +35,7 @@
 }
 
 nav {
-    font-size: 50px;
+    font-size: 45px;
     display: flex;
     gap: 100px;
 }
@@ -35,7 +46,7 @@ nav li {
 
 nav ul {
     display: flex;
-    gap: 170px;
+    gap: 135px;
     padding: 5px 10px;
     margin: 20px 200px;
     list-style: none;
@@ -44,6 +55,13 @@ nav ul {
 nav a {
     text-decoration: none;
     color: rgba(102, 52, 0, 0.38);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    color: rgba(29, 15, 0, 0.38);
+    border-bottom: 2px solid rgba(29, 15, 0, 0.38);
 }
 
 .feature {
@@ -63,6 +81,10 @@ nav a {
     height: 200px;
 }
 
+.feature:hover {
+    background-image: url(img/feature-bg-hover.png);
+}
+
 .feature img {
     width: 150px;
     height: 150px;
@@ -77,16 +99,17 @@ nav a {
 }
 
 .pastry-info h2 {
-    margin: 0 0 10px;
+    margin: 0 0 5px;
     font-size: 40px;
+    font-family: fontTitle;
     color: #840000;
 }
 
-.read-recipe {
+.pastry-info .read-recipe {
     color: #840000;
     font-weight: bold;
     font-style: italic;
-    text-align: left;
+    text-align: right;
 }
 
 #recipes > .top-div > a {
@@ -115,7 +138,8 @@ nav a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-
+    font-family: fontTitle;
+    font-style: italic;
     margin: 10px auto 20px;
     width: 1040px;
     height: 45px;
@@ -152,6 +176,10 @@ nav a {
 
     font-size: 18px;
     cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: rgba(102, 52, 0, 0.5);
 }
 
 .top-div .search-bar {
