@@ -16,6 +16,13 @@
     min-height: 800px;
 }
 
+#contact-page {
+    background-image: url(img/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 100%;
+}
+
 .top-div {
     position: absolute;
     display: inline-block;

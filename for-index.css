@@ -16,21 +16,17 @@
     min-height: 800px;
 }
 
+#feature-page {
+    background-image: url(img/nav.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 100%;
+}
+
 .top-div {
     position: absolute;
     display: inline-block;
     font-family: fontText;
-}
-
-.bottom-div {
-    position: absolute;
-    display: block;
-    margin: 0 10%;
-    width: 85%;
-}
-
-.bottom-div img {
-    width: 95%;
 }
 
 nav {
