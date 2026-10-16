@@ -7,6 +7,9 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
+}
+
+body {
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,4 +101,55 @@ footer {
 footer p {
     font-size: 30px;
     color: #840000;
+}
+
+/** FOR MOBILE **/
+@media screen and (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("img/mobile-bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    header img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .frontcover img {
+        width: 100%;
+        height: auto;
+        margin-top: 200px;
+        margin-left: 20px;
+        display: block;
+    }
+
+    .button {
+        width: 33%;
+        text-align: center;
+        margin: 20px auto;
+        margin-bottom: 50px;
+    }
+
+    .button a {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
 }

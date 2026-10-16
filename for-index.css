@@ -107,3 +107,77 @@ nav a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+/** FOR MOBILE **/
+@media screen and (max-width: 767px) {
+
+    #feature-page {
+        background-image: url(img/nav-mobile.png);
+        background-size: 90% 100%;
+        margin: 100px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 100%;
+        z-index: 100;
+        margin: 0 30px;
+    }
+
+    nav ul {
+        position: relative;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+        width: 35px;
+        height: 100%;
+    }
+
+    nav li {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+
+    nav a {
+        color: rgba(102, 52, 0, 0.38);
+        font-size: 18px;
+        padding: 8px 4px;
+        border: none;
+    }
+
+    .feature {
+        margin: 5px 30px;
+        padding: 0px 0px;
+        background-image: url(img/feature-bg-mobile.png);
+        width: 300px;
+        height: 200px;
+    }
+
+    .feature.spanish {
+        margin-top: 25px;
+    }
+
+    .feature img {
+        max-width: 150px;
+    }
+
+    .pastry-info h2 {
+        font-size: 25px;
+    }
+
+    .pastry-info p {
+        font-size: 10px;
+        max-width: 200px;
+    }
+}
