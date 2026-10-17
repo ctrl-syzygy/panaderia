@@ -228,7 +228,7 @@ nav a:hover {
         background-image: url(img/contact-mobile-bg.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100% 80%;
+        background-size: 100% 90%;
 
         min-height: 800px;
         width: 90%;
@@ -296,7 +296,7 @@ nav a:hover {
         min-height: 800px;
 
         margin: 0 10px;
-        padding: 35px 25px;
+        padding: 50px 30px;
 
         box-sizing: border-box;
     }
@@ -304,7 +304,7 @@ nav a:hover {
     .contact img {
         content: url("img/contact-title-mobile.png");
         width: 250px;
-        padding: 20px 0;
+        padding: 10px 0 0;
         margin: 50px;
     }
 
