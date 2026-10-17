@@ -106,3 +106,110 @@ nav a:hover {
 .contact a:hover {
     color: #840000;
 }
+
+/* MEDIA QUERY FOR LARGE DESKTOP VIEWPORT */
+@media screen and (min-width: 1921px) {
+    #contact {
+        position: relative;
+        margin-top: 0px;
+        margin-left: 230px;
+        align-items: center;
+        scroll-margin-top: 100px;
+        min-height: 850px;
+    }
+
+    #contact-page {
+        background-image: url(img/contact.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 65% 80%;
+    }
+
+    .top-div {
+        position: absolute;
+        display: inline-block;
+        font-family: fontTitle;
+    }
+
+    .bottom-div {
+        position: absolute;
+        display: block;
+        margin: 0 10%;
+        width: 85%;
+    }
+
+    .bottom-div img {
+        width: 95%;
+    }
+
+    nav {
+        font-size: 35px;
+        display: flex;
+        gap: 100px;
+        font-family: fontText;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 130px;
+        padding: 0px 10px;
+        margin: 100px 280px 20px;
+        list-style: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgba(102, 52, 0, 0.38);
+        border-bottom: 2px solid transparent;
+        padding-bottom: 5px;
+    }
+
+    nav a:hover {
+        color: rgba(29, 15, 0, 0.38);
+        border-bottom: 2px solid rgba(29, 15, 0, 0.38);
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        margin: 50px 190px;
+    }
+
+    .contact img {
+        width: 75%;
+    }
+
+    .contact h4 {
+        font-size: 35px;
+        font-weight: bold;
+        color: #840000;
+        font-style: italic;
+        padding-bottom: 10px;
+    }
+
+    .contact p {
+        font-size: 30px;
+        padding-top: 10px;
+        
+    }
+
+    .contact p:last-of-type {
+        padding-bottom: 80px;
+    }
+    .contact a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .contact a:hover {
+        color: #840000;
+    }
+}

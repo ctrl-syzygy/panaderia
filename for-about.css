@@ -91,3 +91,220 @@ nav a:hover {
     margin-right: 25px;
     padding-left: 110px;
 }
+
+/* MEDIA QUERY FOR LARGE DESKTOP VIEWPORT */
+@media screen and (min-width: 1921px) {
+    #about {
+        position: relative;
+        margin-top: 50px;
+        align-items: center;
+        scroll-margin-top: 100px;
+        min-height: 1300px;
+    }
+
+    #about-page {
+        background-image: url(img/about-bg-bottom.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50% 100%;
+    }
+
+    .top-div {
+        position: absolute;
+        display: inline-block;
+        font-family: fontTitle;
+    }
+
+    nav {
+        font-size: 35px;
+        display: flex;
+        font-family: fontText;
+        margin-left: 320px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 115px;
+        padding: 5px 10px;
+        margin: 5px 200px;
+        list-style: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgba(102, 52, 0, 0.38);
+        border-bottom: 2px solid transparent;
+        padding-bottom: 5px;
+    }
+
+    nav a:hover {
+        color: rgba(29, 15, 0, 0.38);
+        border-bottom: 2px solid rgba(29, 15, 0, 0.38);
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/about-bg-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 55% 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 30px 120px;
+    }
+
+    .about img {
+        width: 50%;
+    }
+
+    .about h4 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #840000;
+        font-style: italic;
+        padding-bottom: 10px;
+    }
+
+    .about p {
+        font-size: 25px;
+        padding: 0 90px 5px;
+        text-align: justify;
+        margin-right: 25x;
+        padding-left: 110px;
+        width: 60%;
+    }
+}
+
+/* FOR MOBILE VIEWPORT */
+@media screen and (max-width: 767px) {
+
+    #about {
+        position: relative;
+        margin-top: 30px;
+        min-height: 1200px;
+        scroll-margin-top: 100px;
+        box-sizing: border-box;
+    }
+
+    #about-page {
+        background-image: url(img/about-bg-mobile-bottom.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+
+        min-height: 1100px;
+        width: 90%;
+
+        margin: 0;
+        margin-left: 20px;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    /* NAVIGATION */
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 100%;
+
+        z-index: 100;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 0;
+        width: 99%;
+        height: 44%;
+
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+
+    nav li {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+
+    nav a {
+        font-size: 18px;
+        color: rgba(102, 52, 0, 0.38);
+        padding: 8px 4px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+
+        background-image: url(img/about-bg-mobile-top.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+
+        width: calc(100% - 55px);
+        max-width: 300px;
+
+        min-height: 1100px;
+
+        margin: 30px 10px;
+        padding: 35px 25px;
+
+        box-sizing: border-box;
+    }
+
+    /* IMAGES */
+    .about img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .about h4 {
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0 0 10px;
+        padding-bottom: 5px;
+        color: #840000;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .about p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.6;
+        text-align: justify;
+
+        padding: 0;
+        margin: 0 0 15px;
+
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+    }
+
+}

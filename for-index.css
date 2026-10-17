@@ -108,6 +108,109 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* MEDIA QUERY FOR LARGE DESKTOP VIEWPORT */
+@media screen and (min-width: 1921px) {
+    #feature {
+        position: relative;
+        margin-top: 200px;
+        margin-left: 350px;
+        align-items: center;
+        min-height: 800px;
+    }
+
+    #feature-page {
+        background-image: url(img/nav.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 100%;
+    }
+
+    .top-div {
+        position: absolute;
+        display: inline-block;
+        font-family: fontText;
+    }
+
+    nav {
+        font-size: 45px;
+        display: flex;
+        gap: 100px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 135px;
+        padding: 5px 10px;
+        margin: 20px 200px;
+        list-style: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgba(102, 52, 0, 0.38);
+        border-bottom: 2px solid transparent;
+        padding-bottom: 5px;
+    }
+
+    nav a:hover {
+        color: rgba(29, 15, 0, 0.38);
+        border-bottom: 2px solid rgba(29, 15, 0, 0.38);
+    }
+
+    .feature {
+        display: flex;
+        align-items: center;
+        margin: 5px 190px;
+        padding: 15px 25px;
+
+        background-image: url(img/feature-bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1060px;
+        height: 205px;
+    }
+
+    .feature:hover {
+        background-image: url(img/feature-bg-hover.png);
+    }
+
+    .feature img {
+        max-width: 20%;
+    }
+
+    .pastry-info {
+        flex: 1;
+    }
+
+    .pastry-info h2 {
+        margin: 0 0 10px;
+        font-size: 40px;
+        color: #840000;
+        font-family: fontTitle;
+    }
+
+    .pastry-info p:first-of-type {
+        color: #840000;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .pastry-info p {
+        margin: 8px 0;
+        font-size: 18px;
+        color: #000;
+    }
+
+    #feature a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
 /** FOR MOBILE **/
 @media screen and (max-width: 767px) {
 
@@ -179,5 +282,13 @@ nav a:hover {
     .pastry-info p {
         font-size: 10px;
         max-width: 200px;
+    }
+
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 }
