@@ -213,3 +213,106 @@ nav a:hover {
         color: #840000;
     }
 }
+
+/* FOR MOBILE VIEWPORT */
+@media screen and (max-width: 767px) {
+    #contact {
+        position: relative;
+        margin-top: 0px;
+        align-items: center;
+        scroll-margin-top: 100px;
+        min-height: 800px;
+    }
+
+    #contact-page {
+        background-image: url(img/contact-mobile-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 80%;
+
+        min-height: 800px;
+        width: 90%;
+
+        margin: 0;
+        margin-left: 20px;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 100%;
+
+        z-index: 100;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 0;
+        width: 99%;
+        height: 44%;
+
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+
+    nav li {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+
+    nav a {
+        font-size: 18px;
+        color: rgba(102, 52, 0, 0.38);
+        padding: 8px 4px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+
+        width: calc(100% - 55px);
+        max-width: 300px;
+
+        min-height: 800px;
+
+        margin: 0 10px;
+        padding: 35px 25px;
+
+        box-sizing: border-box;
+    }
+
+    .contact img {
+        content: url("img/contact-title-mobile.png");
+        width: 250px;
+        padding: 20px 0;
+        margin: 50px;
+    }
+
+    .contact h4 {
+        font-size: 25px;
+    }
+
+    .contact p {
+        font-size: 20px;
+    }
+}
