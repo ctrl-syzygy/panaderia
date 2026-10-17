@@ -382,3 +382,254 @@ nav a:hover {
         color: #840000;
     }
 }
+
+/* FOR MOBILE VIEWPORT */
+@media screen and (max-width: 767px) {
+
+    #recipes {
+        position: relative;
+        margin-top: 30px;
+        padding-top: 0;
+        min-height: 2000px;
+        scroll-margin-top: 80px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #recipes-page {
+        background-image: url(img/instructions-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 90% 90%;
+
+        width: 100%;
+        min-height: 1850px;
+
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    /* NAVIGATION */
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 100px;
+        height: 40%;
+
+        z-index: 100;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 0;
+        width: 100%;
+        height: 100%;
+
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+
+    nav li {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+
+    nav a {
+        font-size: 20px;
+        color: rgba(102, 52, 0, 0.38);
+
+        padding: 8px 4px;
+        text-decoration: none;
+        border: none;
+    }
+
+    /* BREAD FEATURE */
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0;
+
+        width: 100%;
+        margin: 0;
+        padding: 15px 40px;
+        right: 20px;
+
+        box-sizing: border-box;
+    }
+
+    .bread-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50%;
+        flex: none;
+    }
+
+    .bread-image img {
+        display: block;
+
+        width: 75%;
+        max-width: 250px;
+        height: auto;
+
+        object-fit: contain;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .bread-info {
+        width: 100%;
+        min-width: 0;
+        flex: none;
+
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .bread-info img {
+        display: block;
+
+        width: 60%;
+        max-width: 250px;
+        height: auto;
+
+        margin: 0 auto;
+    }
+
+    .bread-info .subtitle {
+        display: none;
+    }
+
+    .bread-info .description {
+        width: 100%;
+        max-width: 230px;
+
+        font-size: 7px;
+        line-height: 1.5;
+        color: #333;
+
+        margin: 0 auto;
+        overflow-wrap: break-word;
+    }
+
+    /* RECIPE CONTENT */
+    .recipe {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 15px;
+
+        width: 80%;
+        margin: 0;
+        padding: 10px 45px 100px 60px;
+
+        box-sizing: border-box;
+    }
+
+    .ingredients {
+        width: 100%;
+        flex: none;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .instructions {
+        width: 100%;
+        flex: none;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .ingredients img, .instructions img {
+        width: 60%;
+    }
+
+    /* INGREDIENTS AND INSTRUCTIONS HEADINGS */
+    .ingredients h4 {
+        font-size: 14px;
+        font-family: fontTitle;
+        color: #840000;
+
+        margin-top: 15px;
+        margin-bottom: 0;
+
+        font-style: italic;
+    }
+
+    .ingredients ul {
+        padding-left: 18px;
+        margin-bottom: 15px;
+    }
+
+    .instructions ol {
+        width: 100%;
+        padding-left: 18px;
+        text-align: justify;
+
+        box-sizing: border-box;
+    }
+
+    .ingredients li {
+        font-size: 10px;
+        line-height: 1.5;
+        margin-bottom: 0;
+
+        color: #000;
+        overflow-wrap: break-word;
+    }
+
+    .instructions li {
+        font-size: 10px;
+        line-height: 1.5;
+        margin-bottom: 8px;
+
+        color: #000;
+        overflow-wrap: break-word;
+    }
+
+    /* BACK BUTTON */
+    .feature.bread {
+        position: relative;
+    }
+
+    .back-button {
+        position: absolute;
+        top: 50px;
+        left: 90px;
+
+        z-index: 1000;
+
+        color: #000;
+        background: none;
+        border: none;
+
+        font-size: 30px;
+        font-weight: bold;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+        transition: 0.3s;
+    }
+}

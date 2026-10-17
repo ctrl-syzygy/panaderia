@@ -257,8 +257,8 @@ nav a:hover {
         justify-content: space-around;
 
         gap: 0;
-        width: 99%;
-        height: 44%;
+        width: 70%;
+        height: 90%;
 
         margin: 0;
         padding: 0;
@@ -278,7 +278,7 @@ nav a:hover {
     nav a {
         font-size: 18px;
         color: rgba(102, 52, 0, 0.38);
-        padding: 8px 4px;
+        padding: 0;
         text-decoration: none;
         border: none;
     }
