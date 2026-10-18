@@ -411,7 +411,6 @@ nav a:hover {
         box-sizing: border-box;
     }
 
-    /* NAVIGATION */
     nav {
         position: absolute;
         top: 0;
@@ -458,7 +457,6 @@ nav a:hover {
         border: none;
     }
 
-    /* BREAD FEATURE */
     .feature {
         display: flex;
         flex-direction: column;
@@ -530,7 +528,6 @@ nav a:hover {
         overflow-wrap: break-word;
     }
 
-    /* RECIPE CONTENT */
     .recipe {
         display: flex;
         flex-direction: column;
@@ -563,7 +560,6 @@ nav a:hover {
         width: 60%;
     }
 
-    /* INGREDIENTS AND INSTRUCTIONS HEADINGS */
     .ingredients h4 {
         font-size: 14px;
         font-family: fontTitle;
@@ -606,7 +602,6 @@ nav a:hover {
         overflow-wrap: break-word;
     }
 
-    /* BACK BUTTON */
     .feature.bread {
         position: relative;
     }
